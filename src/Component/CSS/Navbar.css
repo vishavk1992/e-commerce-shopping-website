@@ -1,0 +1,98 @@
+.top-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:10px 15px;
+    color:rgb(21, 21, 21);
+    align-items: center;
+}
+
+.nav-bar>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 600;
+}
+.nav-bar> ul> li{
+    padding:0 20px;
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.nav-bar ul li:hover{
+    background-color: red;
+}
+ .nav-bar>ul>li>a{
+    color: rgb(23, 22, 22);
+    display: block;
+    padding : 12px 0;
+ }
+.icon ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon li:nth-of-type(3) a{
+    padding:15px;
+   
+}
+.icon{
+    font-size: 25px;
+}
+.icon a{
+    padding-right:15px;
+    color: rgb(25, 25, 25);
+ }
+ .logo img{
+    width:20vh;
+    height: 40px;
+    padding-left: 40px;
+ }
+ 
+ .sticky{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+ }
+ header{
+    padding: 10px;
+    background-color: rgb(241, 241, 237);
+ }
+ @media only screen and (min-width: 427px)and (max-width: 767px) {
+    .top-row {
+      flex-direction: column; /* Change flex direction for small devices */
+      align-items:center; /* Center items vertically */
+    }
+  
+    .logo {
+      padding: 0px; /* Add padding to the logo */
+      margin-bottom: 0px; /* Add some space below logo */
+    }
+    
+  }
+  @media only screen and (max-width: 427px){
+    .top-row {
+         align-items: center;
+         justify-content: space-around;
+      }
+     .logo img{
+        padding: 0;
+     }
+      .logo {
+       margin: auto;
+       text-align: center;
+      }
+      .nav-bar>ul>li{
+        padding:0;
+        text-align: center;
+      }
+      .nav-bar>ul>li>a{
+        padding:5px;
+      }
+
+  }

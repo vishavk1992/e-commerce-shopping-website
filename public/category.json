@@ -1,0 +1,35 @@
+[{
+    "id" : "sunglasses",
+    "title" :"SUNGLASSES",
+    "number" : "11 " ,
+    "image" : "images/category/category-1.jpg"
+},
+{
+    "id" : "bags",
+    "title" :"BAGS",
+    "number" : "4 " ,
+    "image" : "images/category/category-2.jpg"
+
+},
+{
+    "id" : "electronics",
+    "title" :"ELECTRONICS",
+    "number" : "8 " ,
+    "image" : "images/category/category-3.jpg"
+
+},
+{
+    "id" : "fashion",
+    "title" :"FASHION",
+    "number" : "11 " ,
+    "image" : "images/category/category-4.jpg"
+
+},
+{
+    "id" : "headphone",
+    "title" :"HEADPHONE",
+    "number" : "3 " ,
+    "image" : "images/category/category-5.jpg"
+
+}
+]

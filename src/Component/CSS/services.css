@@ -1,0 +1,28 @@
+.services-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem 2rem;
+}
+.services-info img{
+    width:70px;
+    height:70px;
+    margin-bottom: 15px;
+}
+.services-info{
+    text-align: center;
+}
+
+@media only screen and (max-width: 427px){
+    .services-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 10px;
+    }
+   
+    .services-info p{
+        font-size:10px;
+    }
+    .services-info img{
+        width:50%;
+    }
+}

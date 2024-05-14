@@ -1,0 +1,102 @@
+[
+    {
+        "id":1,
+        "image":"http://localhost:3000/images/product/cream-heel.jpg",
+        "categoryId" : "sunglasses",
+        "price" : 101.00,
+        "title": "Girl Shoes"
+    },
+    {
+        "id":2,
+        "image":"http://localhost:3000/images/product/watch-black.jpg",
+        "categoryId" : "fashion",
+        "price" : 108.00,
+        "title": "Watch"
+    },
+    {
+        "id":3,
+        "image":"http://localhost:3000/images/product/laptop.jpg",
+        "categoryId" : "electronics",
+        "price" : 238.00,
+        "title": "Ideapad"
+    },
+    {
+        "id":4,
+        "image":"http://localhost:3000/images/product/black-shoes.jpg",
+        "categoryId" : "headphone",
+        "price" :149.00,
+        "title": "Men Shoes"
+    },
+    {
+        "id":5,
+        "image":"http://localhost:3000/images/product/kids-shoes.jpg",
+        "categoryId" : "bags",
+        "price" : 138.00,
+        "title": "Black shoes for kids"
+    },
+    {
+        "id":6,
+        "image":"http://localhost:3000/images/product/heel-pair.jpg",
+        "categoryId" : "bags",
+        "price" : 238.00,
+        "title": "Black high Heeled Shoes"
+    },
+    {
+        "id":7,
+        "image":"http://localhost:3000/images/product/men-jacket.jpg",
+        "categoryId" : "fashion",
+        "price" : 115.00,
+        "title": "Men Jacket"
+    },
+    {
+        "id":8,
+        "image":"http://localhost:3000/images/product/porto-dress.jpg",
+        "categoryId" : "fashion",
+        "price" : 188.00,
+        "title": "Black Porto Dress"
+    },
+    {
+        "id":9,
+        "image":"http://localhost:3000/images/product/jacket.jpg",
+        "categoryId" : "fashion",
+        "price" : 135.00,
+        "title": "Jacket"
+    },
+    {
+        "id":10,
+        "image":"http://localhost:3000/images/product/watch-black.jpg",
+        "categoryId" : "electronics",
+        "price" : 99.00,
+        "title": "Men Watch"
+    },
+    {
+        "id":11,
+        "image":"http://localhost:3000/images/product/dome.jpg",
+        "categoryId" : "sunglasses",
+        "price" : 79.00,
+        "title": "Porto Dome"
+    },
+    {
+        "id":12,
+        "image":"http://localhost:3000/images/product/black-bag.jpg",
+        "categoryId" : "bags",
+        "price" : 89.00,
+        "title": "Bag"
+    },
+    {
+        "id":13,
+        "image":"http://localhost:3000/images/product/watch-black.jpg",
+        "categoryId" : "electronics",
+        "price" : 108.00,
+        "title": "Watch"
+    },
+    {
+        "id":14,
+        "image":"http://localhost:3000/images/product/dome.jpg",
+        "categoryId" : "electronics",
+        "price" : 79.00,
+        "title": "Porto Dome"
+    }
+    
+    
+]
