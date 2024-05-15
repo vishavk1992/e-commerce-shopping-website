@@ -25,6 +25,12 @@
 This project is deployed on Netlify.
 Check it out here.
    https://shopping-women-men.netlify.app/
+
+### Screenshot of Project : 
+
+https://github.com/vishavk1992/e-commerce-shopping-website/assets/148455293/0da1de91-d5ca-44b9-a1b1-39316f792858
+
+
   
 
 
