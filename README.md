@@ -14,11 +14,12 @@
 
 ### Clone 'react-e-commerce-website.git' repository from GitHub
 
-git clone [https://github.com/AdityaKumawat97/react-e-commerce-website.git](https://github.com/vishavk1992/e-commerce-shopping-website/)
+* git clone https://github.com/vishavk1992/e-commerce-shopping-website
 
 * Install node modules
 
 * npm install
+  
 
 
 
