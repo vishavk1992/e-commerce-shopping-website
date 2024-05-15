@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../CSS/footer.css';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 const Footer = () => {
@@ -19,9 +20,9 @@ const Footer = () => {
                                 </form>
                             </div>
                             <div className='media-icon'>
-                                <span className='icons'><FaFacebook /></span>
-                                <span className='icons'><FaTwitter /></span>
-                                <span className='icons'><FaInstagram /></span>
+                                <span className='icons'><a href='https://www.facebook.com/'><FaFacebook /></a></span>
+                                <span className='icons'><Link to ="https://twitter.com/i/flow/login"><FaTwitter /></Link></span>
+                                <span className='icons'><Link to="https://www.instagram.com/"><FaInstagram /></Link></span>
                             </div>
                         </div>
                     </div>

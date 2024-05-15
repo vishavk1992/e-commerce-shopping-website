@@ -1,10 +1,10 @@
 [
     {
         "id":1,
-        "image":"http://localhost:3000/images/product/cream-heel.jpg",
+        "image":"http://localhost:3000/images/product/sun-4.jpg",
         "categoryId" : "sunglasses",
         "price" : 101.00,
-        "title": "Girl Shoes"
+        "title": "Girl Sunglasses"
     },
     {
         "id":2,
@@ -72,7 +72,7 @@
     {
         "id":11,
         "image":"http://localhost:3000/images/product/dome.jpg",
-        "categoryId" : "sunglasses",
+        "categoryId" : "electronics",
         "price" : 79.00,
         "title": "Porto Dome"
     },
@@ -96,7 +96,41 @@
         "categoryId" : "electronics",
         "price" : 79.00,
         "title": "Porto Dome"
+    },
+    {
+        "id":15,
+        "image":"http://localhost:3000/images/product/sun-6.jpg",
+        "categoryId" : "sunglasses",
+        "price" : 89.00,
+        "title": "Sunglasses for Men"
+    },
+    {
+        "id":16,
+        "image":"http://localhost:3000/images/product/sun-3.jpeg",
+        "categoryId" : "sunglasses",
+        "price" : 85.00,
+        "title": "Sunglasses for Women"
+    },
+    {
+        "id":16,
+        "image":"http://localhost:3000/images/product/sun-1.jpeg",
+        "categoryId" : "sunglasses",
+        "price" : 85.00,
+        "title": "Sunglasses for Women"
+    },
+    {
+        "id":17,
+        "image":"http://localhost:3000/images/product/sun-4.jpg",
+        "categoryId" : "sunglasses",
+        "price" : 101.00,
+        "title": "Girl Sunglasses"
+    },
+    {
+        "id":18,
+        "image":"http://localhost:3000/images/product/sun-2.jpg",
+        "categoryId" : "sunglasses",
+        "price" : 109.00,
+        "title": "Men Sunglasses"
     }
-    
-    
+   
 ]

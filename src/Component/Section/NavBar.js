@@ -48,7 +48,7 @@ const NavBar = () => {
         <div class="icon">
           <ul>
             <li><Link to={`/wishlist`}><FaHeart />{reducer2.wishlist.length}</Link></li>
-            <li><Link to=""><FaUser /></Link></li>
+            <li><Link to="/login"><FaUser /></Link></li>
             <li><Link to=""><FaSearch /></Link></li>
             <li><Link to={`/cart`}><FaCartPlus />{cart.cart.length}</Link></li>
           </ul>

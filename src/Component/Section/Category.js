@@ -24,7 +24,7 @@ const Category = () => {
                         data.map((item) =>
                             <div class="cat-info">
                                 <div class="cat-image">
-                                    <img src={item.image} alt='category' />
+                                     <Link to={`/categories/${item.id}`}><img src={item.image} alt='category' /></Link>
                                 </div>
                                 <div class="cat-content">
                                     <Link to={`/categories/${item.id}`}><h4>{item.title}</h4></Link>

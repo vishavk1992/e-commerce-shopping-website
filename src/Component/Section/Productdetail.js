@@ -3,6 +3,9 @@ import '../CSS/productdetail.css'
 import { useEffect , useState } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from "axios";
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../../REDUX/features/CartSlice';
+import { addToWishlist } from '../../REDUX/features/WishlistSlice';
 
 const Productdetail = () => {
 
@@ -14,6 +17,14 @@ const Productdetail = () => {
   const [ data , setData] = useState([]);
   const {id} = useParams();
   console.log(id + "hello")
+
+  const dispatch = useDispatch();
+  const handleCart =(prod)=>{
+    dispatch(addToCart(prod))
+  }
+  const handleWishList = (prod)=>{
+    dispatch(addToWishlist(prod))
+  }
 
   useEffect(()=>{
     const getItems= async()=>{
@@ -58,8 +69,8 @@ const Productdetail = () => {
             <h4><del>$299</del> ${item.price}</h4>
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
             <h4>CATEGORY : {item.categoryId}</h4>
-            <button  className="btn" type='submit'>ADD TO CART</button>
-            <button  className="btn" type='submit'>WISHLIST</button>
+            <button  className="btn" type='submit'onClick={() => handleCart(item)}>ADD TO CART</button>
+            <button  className="btn" type='submit' onClick={()=>handleWishList(item)}>WISHLIST</button>
           </div>
         </div>
         )}
