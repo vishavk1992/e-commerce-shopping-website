@@ -9,6 +9,7 @@
  * Create react app - A quick method to start developing a react application.
  * Babel - A transpiler for javascript
  * Webpack - A module bundler
+ * Responsive user interface for small, medium devices.
 
 ### Follow the following steps to get development environment running.
 
@@ -19,6 +20,11 @@
 * Install node modules
 
 * npm install
+
+* Live Demo
+This project is deployed on Netlify.
+Check it out here.
+   https://shopping-women-men.netlify.app/
   
 
 
